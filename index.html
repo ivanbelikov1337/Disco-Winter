@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>2</title>
+</head>
+<body>
+<div id="preloader" class="visible">
+    <div id="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="text">Loading...</div>
+    </div>
+</div>
+<header>
+    <div class="header-logo">
+        <img class="logo" src="img/logo.png" alt="">
+        <div class="header-search">
+            <img class="logo-src" src="img/search.png" alt="logo">
+            <label>
+                <input placeholder="Поиск по сайту" type="text"/>
+            </label>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="hamburger">
+            <div class="hamburger__field" id="hamburger">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a class="active-navigation" href="#">О нас</a></li>
+            <li><a class="active-navigation1" href="#">Проекты</a></li>
+            <li><a class="active-navigation2" href="#">Публикации</a></li>
+            <li><a class="active-navigation3" href="#">Образование</a></li>
+            <li><a class="active-navigation4" href="#">Мероприятия</a></li>
+            <li><a class="active-navigation5" href="#">Инфраструктура</a></li>
+        </ul>
+        <div class="popup" id="popup"></div>
+    </div>
+    <div class="header-icon">
+        <img src="img/bell.png" alt="bell">
+    </div>
+    <div class="header-button">
+        <img class="header-button-img" src="img/plus.png" alt="plus">
+        <button class="open-button_modal" type="button"><a class="open_modal" href="#">Добавить</a></button>
+        <div class="block-modal">
+            <div id="modal" class="modal bounceIn">
+                <div id="close_modal">+</div>
+                <div class="modal_txt">
+                    <div class="aside">
+                        <div class="aside-title">
+                            <h2>Самое обсуждаемое</h2>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/keagan.png" alt="">
+                            <div class="item-text">
+                                <button class="green" type="button">Одежда и мода</button>
+                                <p>Новая ткань отражающая холод, воду, свет и сплетни</p>
+                            </div>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/bruce.png" alt="">
+                            <div class="item-text">
+                                <button class="purple" type="button">Образование</button>
+                                <p>Всплывающие окна в вашем телефоне с полезными знаниями</p>
+                            </div>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/mariana.png" alt="">
+                            <div class="item-text">
+                                <button class="aqua" type="button">Сервисы</button>
+                                <p>Интернет помошник в выборе блюда на завтрак и ужин</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside">
+                        <div class="aside-title">
+                            <h2>Топ Рейтинга</h2>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/franck.png" alt="">
+                            <div class="item-text">
+                                <button class="green" type="button">Безопасность</button>
+                                <p>Все замки и ключи в вашем смартфоне</p>
+                            </div>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/scott.png" alt="">
+                            <div class="item-text">
+                                <button class="audio" type="button">Аудиотехника</button>
+                                <p>Домашняя аудиосистема размером со спичечный коробок</p>
+                            </div>
+                        </div>
+                        <div class="aside-item">
+                            <img src="img/rohit.png" alt="">
+                            <div class="item-text">
+                                <button class="home" type="button">Дом</button>
+                                <p>Система сохраниения свежести продуктов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-img">
+        <img src="img/active-photo.png" alt="active-photo"/>
+    </div>
+</header>
+<main>
+    <div class="main__container">
+        <div class="main-nav">
+            <a href="#">Главная</a>
+            <img src="img/disk.png" alt="disk">
+            <a href="#">Проекты</a>
+            <img src="img/disk.png" alt="disk">
+            <a href="#">Заголовок проекта</a>
+        </div>
+        <div class="main-profile">
+            <div class="main__profile-img-text">
+                <img src="img/profile-img.png" alt="profile-img">
+                <p>Александров Александр</p>
+            </div>
+            <div class="main__profile-subscribe">
+                <button type="button" class="subscribe-button">Подписаться</button>
+                <button type="button" class="contact-button">Запросить контакты</button>
+            </div>
+        </div>
+        <div class="main__time">
+            <div class="main__time-text">
+                <p>Сегодня в 23:12</p>
+            </div>
+            <div class="main__time-img">
+                <img src="img/time-1mg.png" alt="">
+            </div>
+        </div>
+        <div class="main-title">
+            <p>Умная розетка с динамиком, которая может <br> напомнить о себе</p>
+        </div>
+        <div class="main-img">
+            <img src="img/main-img.png" alt="">
+        </div>
+        <div class="main__gallery">
+            <img src="img/gellery1.png" alt="">
+            <img src="img/gellery2.png" alt="">
+            <img src="img/gellery3.png" alt="">
+            <img src="img/gellery4.png" alt="">
+        </div>
+        <div class="main__subtitle">
+            <p>Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует анализа
+                <br>
+                как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что активно <br>
+                развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в целом, однако
+                <br>
+                конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики и морали.
+            </p>
+        </div>
+        <div class="main-text__youtube">
+            <img src="img/main-youtube.png" alt="youtube">
+        </div>
+        <div class="main-menu" id="submenuActive">
+            <p>Проблемы</p>
+            <div class="main-menu-list">
+                <div class="menu-list__items">
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Люди забывают вытаскивать приборы из розеток</p>
+                </div>
+                <div class="menu-list__items">
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Люди забывают вставить прибор в розетку и думают, что он сломан</p>
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                </div>
+                <div class="menu-list__items">
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Дети любят играть с розетками</p>
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <p>Решения</p>
+            <div class="main-menu-list">
+                <div class="menu-list__items">
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Люди забывают вытаскивать приборы из розеток</p>
+                </div>
+                <div class="menu-list__items">
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Люди забывают вставить прибор в розетку и думают, что он сломан</p>
+                </div>
+                <div class="menu-list__items">
+                    <div class="submenu">
+                        <p>Підменю</p>
+                    </div>
+                    <img src="img/main-menu-pun.png" alt="">
+                    <p>Дети любят играть с розетками</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-subtitle-description">
+            <div class="main-description-title">
+                <p>О проекте</p>
+            </div>
+            <div class="subtitle-description-items__first">
+                <p>Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                    анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                    активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                    целом,
+                </p>
+            </div>
+            <div class="subtitle-description-items__second">
+                <p>Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                    анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                    активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                    целом,
+                </p>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/chirayu-trivedi.png" alt="">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/rozetka1.jpg" alt="">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/rozetka2.jpg"  alt="">
+            </div>
+            <a onclick="plusSlides(-1)" class="prev">&#10094</a>
+            <a onclick="plusSlides(1)" class="next">&#10095</a>
+        </div>
+        <div class="main-project-text">
+            <div class="main-project-text-first">
+                <p>И нет сомнений, что активно развивающиеся страны третьего мира освещают чрезвычайно интересные
+                    особенности картины в целом, однако конкретные выводы, разумеется, объявлены нарушающими
+                    общечеловеческие нормы этики и морали.
+                </p>
+            </div>
+            <div class="main-project-text-second">
+                <p>Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                    анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                    активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                    целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики и
+                    морали.
+                </p>
+            </div>
+        </div>
+        <div class="main-subtitle-needs">
+            <p class="title-subtitle-needs">Потребности</p>
+            <div class="subtitle-needs-section">
+                <div class="needs-section-items">
+                    <img class="icon" src="img/dollar.png" alt="arrow">
+                    <p>Инвестиции</p>
+                </div>
+                <div class="needs-section-items">
+                    <p>1 600 000 руб.</p>
+                    <img class="arrow" src="img/iconarrow-top.png" alt="">
+                </div>
+            </div>
+            <p class="title-subtitle-needs-second">Назначение: Постройка цеха для серийного производства</p>
+            <div class="needs-section-subtitle">
+                <p>Сумма: 1 600 000 руб.</p>
+                <p>Возврат: 72 Месяца</p>
+            </div>
+            <div class="subtitle-needs-section__second">
+                <div class="needs-section-items">
+                    <img class="icon" src="img/users.png" alt="">
+                    <p>Сотрудники</p>
+                </div>
+                <div class="needs-section-items">
+                    <p>1</p>
+                    <img class="arrow" src="img/iconarrow-top.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="section-title-text">
+                <p>Стажер в отдел разработки</p>
+                <p class="section-title-text-active">40 000 руб/мес</p>
+            </div>
+            <div class="main-section-button">
+                <button type="button">Marketing</button>
+                <button type="button">Marketing</button>
+                <button type="button">Marketing</button>
+            </div>
+            <p class="section-title-text-lust">Принимая во внимание показатели успешности, понимание сути
+                ресурсосберегающих технологий требует анализа
+                как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что активно
+                развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в целом, однако
+                конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики и морали.
+            </p>
+            <div class="section-title-button">
+                <div class="needs-section-items">
+                    <img class="icon" src="img/search-main.png" alt="">
+                    <p>Помощь экспертов</p>
+                </div>
+                <div class="needs-section-items">
+                    <p>2</p>
+                    <img class="arrow" src="img/iconarrow-top.png" alt="">
+                </div>
+            </div>
+            <ul class="section-title-subtitle">
+                <li>
+                    Инвестиционная упаковка
+                </li>
+            </ul>
+            <ul class="section-title-subtitle-second">
+                <li>
+                    Техническая экспертиза
+                </li>
+            </ul>
+            <div class="subtitle-needs-section__second">
+                <div class="needs-section-items">
+                    <img class="icon" src="img/help.png" alt="">
+                    <p>Помощь сообщества</p>
+                </div>
+                <div class="needs-section-items">
+                    <p>2</p>
+                    <img class="arrow" src="img/iconarrow-top.png" alt="">
+                </div>
+            </div>
+            <div class="subtitle-needs-section__second">
+                <div class="needs-section-items">
+                    <img class="icon" src="img/announcement.png" alt="">
+                    <p>Информационная поддержка</p>
+                </div>
+                <div class="needs-section-items">
+                    <p>1</p>
+                    <img class="arrow" src="img/iconarrow-top.png" alt="">
+                </div>
+            </div>
+            <ul class="section-title-subtitle">
+                <li>
+                    Нашу розетку признали устройством года на самарском стартап-митапе
+                </li>
+            </ul>
+        </div>
+        <div class="main-section">
+            <div class="title-stages">
+                <p class="title-stages-item">Этапы</p>
+                <div class="stages-subtitle">
+                    <div class="stages-subtitle-items">
+                        <p>Запуск процесса разработки</p>
+                        <div class="stages-subtitle-items-date">
+                            <p>Март 2022</p>
+                            <img src="img/finish.png" alt="">
+                        </div>
+                    </div>
+                    <p class="stages-subtitle-text">
+                        Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                        анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                        активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                        целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики
+                        и морали.
+                    </p>
+                </div>
+                <div class="stages-subtitle-second">
+                    <div class="stages-subtitle-items">
+                        <p>Подготовка прототипа</p>
+                        <div class="stages-subtitle-items-date">
+                            <p>Август 2022</p>
+                            <img src="img/in%20time.png" alt="">
+                        </div>
+                    </div>
+                    <p class="stages-subtitle-text">
+                        Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                        анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                        активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                        целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики
+                        и морали.
+                    </p>
+                </div>
+                <div class="stages-subtitle-third">
+                    <div class="stages-subtitle-items">
+                        <p>Начало серийного производства</p>
+                        <div class="stages-subtitle-items-date">
+                            <p>Сентябрь 2022</p>
+                        </div>
+                    </div>
+                    <p class="stages-subtitle-text">
+                        Принимая во внимание показатели успешности, понимание сути ресурсосберегающих технологий требует
+                        анализа как самодостаточных, так и внешне зависимых концептуальных решений. И нет сомнений, что
+                        активно развивающиеся страны третьего мира освещают чрезвычайно интересные особенности картины в
+                        целом, однако конкретные выводы, разумеется, объявлены нарушающими общечеловеческие нормы этики
+                        и морали.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="section-img">
+                <img src="img/grade.jpg" alt="">
+                <img src="img/sur.png   " alt="">
+            </div>
+            <div class="case-product">
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">1100</span>$</p>
+                    <button class="add_item" data-id="7">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">1500</span>$</p>
+                    <button class="add_item" data-id="2">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">1000</span>$</p>
+                    <button class="add_item" data-id="5">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">2000</span>$</p>
+                    <button class="add_item" data-id="4">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">3000</span>$</p>
+                    <button class="add_item" data-id="10">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <img src="img/gellery1.png" alt="">
+                    <h3 class="item_title">Product</h3>
+                    <p>Цена: <span class="item_price">2500</span>$</p>
+                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                </div>
+            </div>
+            <div class="case-control">
+                <button id="checkout">Оформить заказ</button>
+                <button id="clear_cart">Очистить корзину</button>
+            </div>
+            <div id="cart_content">
+            </div>
+        </div>
+        <div class="main-profile">
+            <div class="main__profile-img-text">
+                <img src="img/profile-img.png" alt="profile-img">
+                <p>Александров Александр</p>
+            </div>
+            <div class="main__profile-subscribe">
+                <button type="button" class="subscribe-button">Подписаться</button>
+                <button type="button" class="contact-button">Запросить контакты</button>
+            </div>
+        </div>
+        <div class="main-section-like">
+            <div class="section-button">
+                <div class="section-button-like">
+                    <button type="button">
+                        <span class="button-like"><img src="img/button-heart.png" alt=""></span>
+                        <span class="button-like-text">Понравилось (134)</span>
+                    </button>
+                </div>
+                <div class="section-button-second">
+                    <button type="button">
+                        <span><img src="img/share.png" alt=""></span>
+                    </button>
+                </div>
+                <div class="section-button-third">
+                    <button type="button">
+                        <span><img src="img/dots-vertical.png" alt=""></span>
+                    </button>
+                </div>
+            </div>
+            <div class="section-nubar">
+                <img src="img/chevron-down.png" alt="">
+                <p>534</p>
+                <img src="img/chevron-up.png " alt="">
+            </div>
+        </div>
+        <div class="main-section-comments">
+            <div class="section-comments-title">
+                <p>Комментарии (154)</p>
+            </div>
+        </div>
+        <div class="main-section-input">
+            <label>
+                <input placeholder="Написать комментарий" type="text"/>
+            </label>
+        </div>
+        <div class="main-section-input-second">
+            <label class="main-section-input-second-1">
+                <input class="main-section-input-second-1" type="text" placeholder="Написать комментарий"/>
+            </label>
+            <span class="main-section-input-second-2"><button type="button">Отправить</button></span>
+        </div>
+        <section>
+            <div class="comments">
+                <img src="img/profile-img.png" alt="profile-img">
+                <div>
+                    <p class="comments-title">Александров Александр</p>
+                    <p class="comments-subtitle">10 сентября 2022</p>
+                </div>
+            </div>
+            <img src="img/heard-number.png" alt="">
+        </section>
+        <p class="section-subtitle">Проект интересный, но очень большой вопрос насколько это будет востребоавнно рынком.
+            Я бы вот себе такой
+            девайс купил, но большинство моих знакомых посчитало бы это пустой тратой денег. Тут нужно либо работать
+            с маркетингом и объяснять зачем это все нужно, либо бить четко в целевую аудиторию (таких людей как
+            я)
+        </p>
+    </div>
+    <aside>
+        <div class="aside">
+            <div class="aside-title">
+                <h2>Самое обсуждаемое</h2>
+            </div>
+            <div class="aside-item">
+                <img src="img/keagan.png" alt="">
+                <div class="item-text">
+                    <button class="green" type="button">Одежда и мода</button>
+                    <p>Новая ткань отражающая холод, воду, свет и сплетни</p>
+                </div>
+            </div>
+            <div class="aside-item">
+                <img src="img/bruce.png" alt="">
+                <div class="item-text">
+                    <button class="purple" type="button">Образование</button>
+                    <p>Всплывающие окна в вашем телефоне с полезными знаниями</p>
+                </div>
+            </div>
+            <div class="aside-item">
+                <img src="img/mariana.png" alt="">
+                <div class="item-text">
+                    <button class="aqua" type="button">Сервисы</button>
+                    <p>Интернет помошник в выборе блюда на завтрак и ужин</p>
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="aside-title">
+                <h2>Топ Рейтинга</h2>
+            </div>
+            <div class="aside-item">
+                <img src="img/franck.png" alt="">
+                <div class="item-text">
+                    <button class="green" type="button">Безопасность</button>
+                    <p>Все замки и ключи в вашем смартфоне</p>
+                </div>
+            </div>
+            <div class="aside-item">
+                <img src="img/scott.png" alt="">
+                <div class="item-text">
+                    <button class="audio" type="button">Аудиотехника</button>
+                    <p>Домашняя аудиосистема размером со спичечный коробок</p>
+                </div>
+            </div>
+            <div class="aside-item">
+                <img src="img/rohit.png" alt="">
+                <div class="item-text">
+                    <button class="home" type="button">Дом</button>
+                    <p>Система сохраниения свежести продуктов</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-up btn-up_hide"></div>
+    </aside>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
